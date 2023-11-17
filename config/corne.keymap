@@ -54,8 +54,8 @@ ZMK_UNICODE_PAIR(n_tilde,   N0, N0, F, N1,   N0, N0, D, N1)
         //│ END      │  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ Ñ        │ BACKSPACE│
             &kp END     &kp A      HRML(S,    D,         F)         &kp G          &kp H      HRMR(J,    K,         L)        &n_tilde   &kp BSPCN 
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ PSCRN    │  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │  , <     │  . >     │          │ ENTER    
-            &kp PSCRN   &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &trans    &kp ENTER    
+        //│ PSCRN    │  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │  , <     │  . >     │          │  ENTER    
+            &kp PSCRN   &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &kp LC(UP)  &kp ENTER    
         //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
                                          &kp C_VOL_UP  &lt LEF TAB &kp LSHIFT     &kp SPACE  &lt RIG TAB &kp C_VOL_DN
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
@@ -67,13 +67,13 @@ ZMK_UNICODE_PAIR(n_tilde,   N0, N0, F, N1,   N0, N0, D, N1)
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ HOME     │  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │          │
-            &kp HOME    &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P      &trans   
+            &kp HOME    &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P    &kp C_MUTE 
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ END      │  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ Ñ        │ BACKSPACE│
             &kp END     &kp A      WHRML(S,   D,         F)         &kp G          &kp H      WHRML(J,   K,         L)        &n_tilde   &kp BSPCN 
         //├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ PSCRN    │  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │  , <     │  . >     │          │ ENTER    
-            &kp PSCRN   &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &trans    &kp ENTER   
+        //│ PSCRN    │  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │  , <     │  . >     │          │  ENTER    
+            &kp PSCRN   &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &kp LG(TAB)  &kp ENTER   
         //╰──────────┴──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────┴──────────╯
                                           &kp C_VOL_UP &lt LEF TAB &kp LSHIFT     &kp SPACE  &lt RIG TAB &kp C_VOL_DN
         //                                 ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
